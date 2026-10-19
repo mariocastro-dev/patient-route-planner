@@ -1,0 +1,415 @@
+{
+  "note": "Fictional demo data. Any resemblance to real persons is coincidental.",
+  "base": {
+    "name": "Operations base (fictional)",
+    "lat": 4.4378,
+    "lng": -75.2006
+  },
+  "patients": [
+    {
+      "id": "P-001",
+      "name": "Diego Díaz",
+      "address": "Calle 69 # 25-23 (fictional)",
+      "service": "Physiotherapy",
+      "priority": "low",
+      "lat": 4.44525,
+      "lng": -75.21234
+    },
+    {
+      "id": "P-002",
+      "name": "Ana Gómez",
+      "address": "Calle 65 # 16-20 (fictional)",
+      "service": "Nursing",
+      "priority": "medium",
+      "lat": 4.43183,
+      "lng": -75.1703
+    },
+    {
+      "id": "P-003",
+      "name": "Julián Gómez",
+      "address": "Calle 28 # 12-79 (fictional)",
+      "service": "General check-up",
+      "priority": "low",
+      "lat": 4.44402,
+      "lng": -75.21334
+    },
+    {
+      "id": "P-004",
+      "name": "Pedro Ramírez",
+      "address": "Calle 35 # 27-84 (fictional)",
+      "service": "Physiotherapy",
+      "priority": "low",
+      "lat": 4.42073,
+      "lng": -75.22927
+    },
+    {
+      "id": "P-005",
+      "name": "Lucía Herrera",
+      "address": "Calle 76 # 16-96 (fictional)",
+      "service": "Medication delivery",
+      "priority": "low",
+      "lat": 4.43041,
+      "lng": -75.22991
+    },
+    {
+      "id": "P-006",
+      "name": "Fabio Martínez",
+      "address": "Calle 96 # 34-34 (fictional)",
+      "service": "Respiratory therapy",
+      "priority": "high",
+      "lat": 4.45119,
+      "lng": -75.19179
+    },
+    {
+      "id": "P-007",
+      "name": "Óscar Herrera",
+      "address": "Calle 63 # 19-54 (fictional)",
+      "service": "Medication delivery",
+      "priority": "low",
+      "lat": 4.43759,
+      "lng": -75.18689
+    },
+    {
+      "id": "P-008",
+      "name": "Fabio Torres",
+      "address": "Calle 11 # 8-17 (fictional)",
+      "service": "General check-up",
+      "priority": "low",
+      "lat": 4.4239,
+      "lng": -75.22058
+    },
+    {
+      "id": "P-009",
+      "name": "Diego Rojas",
+      "address": "Calle 35 # 38-90 (fictional)",
+      "service": "Nursing",
+      "priority": "low",
+      "lat": 4.43906,
+      "lng": -75.17271
+    },
+    {
+      "id": "P-010",
+      "name": "Rosa Rojas",
+      "address": "Calle 59 # 1-91 (fictional)",
+      "service": "General check-up",
+      "priority": "low",
+      "lat": 4.44493,
+      "lng": -75.23029
+    },
+    {
+      "id": "P-011",
+      "name": "Fabio Ortiz",
+      "address": "Calle 52 # 19-10 (fictional)",
+      "service": "Physiotherapy",
+      "priority": "low",
+      "lat": 4.44912,
+      "lng": -75.19469
+    },
+    {
+      "id": "P-012",
+      "name": "Jorge Rodríguez",
+      "address": "Calle 54 # 40-84 (fictional)",
+      "service": "Physiotherapy",
+      "priority": "medium",
+      "lat": 4.44218,
+      "lng": -75.17465
+    },
+    {
+      "id": "P-013",
+      "name": "Jorge Moreno",
+      "address": "Calle 94 # 2-59 (fictional)",
+      "service": "Nursing",
+      "priority": "low",
+      "lat": 4.43857,
+      "lng": -75.21837
+    },
+    {
+      "id": "P-014",
+      "name": "Rosa Díaz",
+      "address": "Calle 24 # 37-42 (fictional)",
+      "service": "Nursing",
+      "priority": "medium",
+      "lat": 4.43039,
+      "lng": -75.17083
+    },
+    {
+      "id": "P-015",
+      "name": "Patricia Moreno",
+      "address": "Calle 77 # 15-32 (fictional)",
+      "service": "Respiratory therapy",
+      "priority": "medium",
+      "lat": 4.41987,
+      "lng": -75.22506
+    },
+    {
+      "id": "P-016",
+      "name": "Fabio Martínez",
+      "address": "Calle 83 # 40-19 (fictional)",
+      "service": "Nursing",
+      "priority": "high",
+      "lat": 4.42871,
+      "lng": -75.17135
+    },
+    {
+      "id": "P-017",
+      "name": "Luis Díaz",
+      "address": "Calle 13 # 24-61 (fictional)",
+      "service": "General check-up",
+      "priority": "medium",
+      "lat": 4.43547,
+      "lng": -75.19308
+    },
+    {
+      "id": "P-018",
+      "name": "Camilo Suárez",
+      "address": "Calle 55 # 17-68 (fictional)",
+      "service": "Medication delivery",
+      "priority": "high",
+      "lat": 4.42943,
+      "lng": -75.20366
+    },
+    {
+      "id": "P-019",
+      "name": "Marta Rodríguez",
+      "address": "Calle 25 # 14-16 (fictional)",
+      "service": "Respiratory therapy",
+      "priority": "medium",
+      "lat": 4.42381,
+      "lng": -75.21736
+    },
+    {
+      "id": "P-020",
+      "name": "Pedro Castillo",
+      "address": "Calle 72 # 13-19 (fictional)",
+      "service": "Physiotherapy",
+      "priority": "low",
+      "lat": 4.44981,
+      "lng": -75.17262
+    },
+    {
+      "id": "P-021",
+      "name": "Gloria Martínez",
+      "address": "Calle 36 # 16-98 (fictional)",
+      "service": "Respiratory therapy",
+      "priority": "medium",
+      "lat": 4.45071,
+      "lng": -75.19912
+    },
+    {
+      "id": "P-022",
+      "name": "Marta Vargas",
+      "address": "Calle 80 # 31-27 (fictional)",
+      "service": "General check-up",
+      "priority": "high",
+      "lat": 4.42135,
+      "lng": -75.20907
+    },
+    {
+      "id": "P-023",
+      "name": "Carmen Rodríguez",
+      "address": "Calle 11 # 13-11 (fictional)",
+      "service": "Medication delivery",
+      "priority": "medium",
+      "lat": 4.42,
+      "lng": -75.1925
+    },
+    {
+      "id": "P-024",
+      "name": "Luis Torres",
+      "address": "Calle 17 # 17-39 (fictional)",
+      "service": "Respiratory therapy",
+      "priority": "medium",
+      "lat": 4.43681,
+      "lng": -75.17478
+    },
+    {
+      "id": "P-025",
+      "name": "Andrés Ramírez",
+      "address": "Calle 22 # 30-80 (fictional)",
+      "service": "General check-up",
+      "priority": "low",
+      "lat": 4.4287,
+      "lng": -75.18243
+    },
+    {
+      "id": "P-026",
+      "name": "Gloria Rodríguez",
+      "address": "Calle 73 # 28-54 (fictional)",
+      "service": "Nursing",
+      "priority": "low",
+      "lat": 4.43523,
+      "lng": -75.19798
+    },
+    {
+      "id": "P-027",
+      "name": "Elena Rojas",
+      "address": "Calle 74 # 38-44 (fictional)",
+      "service": "Physiotherapy",
+      "priority": "low",
+      "lat": 4.44803,
+      "lng": -75.23101
+    },
+    {
+      "id": "P-028",
+      "name": "Fabio Rojas",
+      "address": "Calle 25 # 13-93 (fictional)",
+      "service": "Respiratory therapy",
+      "priority": "low",
+      "lat": 4.44822,
+      "lng": -75.16854
+    },
+    {
+      "id": "P-029",
+      "name": "Beatriz López",
+      "address": "Calle 41 # 28-21 (fictional)",
+      "service": "Physiotherapy",
+      "priority": "low",
+      "lat": 4.43239,
+      "lng": -75.17557
+    },
+    {
+      "id": "P-030",
+      "name": "Lucía Martínez",
+      "address": "Calle 71 # 35-78 (fictional)",
+      "service": "Physiotherapy",
+      "priority": "medium",
+      "lat": 4.41915,
+      "lng": -75.19846
+    },
+    {
+      "id": "P-031",
+      "name": "Carmen Medina",
+      "address": "Calle 58 # 26-55 (fictional)",
+      "service": "General check-up",
+      "priority": "medium",
+      "lat": 4.4322,
+      "lng": -75.16732
+    },
+    {
+      "id": "P-032",
+      "name": "Beatriz Suárez",
+      "address": "Calle 55 # 35-96 (fictional)",
+      "service": "General check-up",
+      "priority": "high",
+      "lat": 4.42323,
+      "lng": -75.19449
+    },
+    {
+      "id": "P-033",
+      "name": "Rosa Rodríguez",
+      "address": "Calle 49 # 5-59 (fictional)",
+      "service": "Nursing",
+      "priority": "low",
+      "lat": 4.43735,
+      "lng": -75.20631
+    },
+    {
+      "id": "P-034",
+      "name": "Julián Martínez",
+      "address": "Calle 23 # 24-54 (fictional)",
+      "service": "General check-up",
+      "priority": "low",
+      "lat": 4.43106,
+      "lng": -75.20501
+    },
+    {
+      "id": "P-035",
+      "name": "Beatriz Díaz",
+      "address": "Calle 43 # 16-53 (fictional)",
+      "service": "Nursing",
+      "priority": "low",
+      "lat": 4.43018,
+      "lng": -75.22763
+    },
+    {
+      "id": "P-036",
+      "name": "Luis Rojas",
+      "address": "Calle 55 # 12-33 (fictional)",
+      "service": "General check-up",
+      "priority": "low",
+      "lat": 4.44454,
+      "lng": -75.22894
+    },
+    {
+      "id": "P-037",
+      "name": "Sofía Moreno",
+      "address": "Calle 26 # 5-49 (fictional)",
+      "service": "General check-up",
+      "priority": "low",
+      "lat": 4.43458,
+      "lng": -75.22648
+    },
+    {
+      "id": "P-038",
+      "name": "Hernán Herrera",
+      "address": "Calle 89 # 30-84 (fictional)",
+      "service": "Medication delivery",
+      "priority": "high",
+      "lat": 4.42495,
+      "lng": -75.21705
+    },
+    {
+      "id": "P-039",
+      "name": "Jorge Castillo",
+      "address": "Calle 92 # 11-63 (fictional)",
+      "service": "Respiratory therapy",
+      "priority": "medium",
+      "lat": 4.41984,
+      "lng": -75.17287
+    },
+    {
+      "id": "P-040",
+      "name": "Andrés Ramírez",
+      "address": "Calle 48 # 16-31 (fictional)",
+      "service": "Respiratory therapy",
+      "priority": "medium",
+      "lat": 4.43971,
+      "lng": -75.22162
+    },
+    {
+      "id": "P-041",
+      "name": "Marta Medina",
+      "address": "Calle 96 # 17-26 (fictional)",
+      "service": "General check-up",
+      "priority": "low",
+      "lat": 4.42955,
+      "lng": -75.18997
+    },
+    {
+      "id": "P-042",
+      "name": "Diego Gómez",
+      "address": "Calle 48 # 29-77 (fictional)",
+      "service": "Medication delivery",
+      "priority": "medium",
+      "lat": 4.45189,
+      "lng": -75.20704
+    },
+    {
+      "id": "P-043",
+      "name": "Lucía Díaz",
+      "address": "Calle 23 # 24-52 (fictional)",
+      "service": "General check-up",
+      "priority": "low",
+      "lat": 4.44195,
+      "lng": -75.21132
+    },
+    {
+      "id": "P-044",
+      "name": "Luis Ramírez",
+      "address": "Calle 47 # 14-55 (fictional)",
+      "service": "Medication delivery",
+      "priority": "high",
+      "lat": 4.43484,
+      "lng": -75.21501
+    },
+    {
+      "id": "P-045",
+      "name": "Óscar Díaz",
+      "address": "Calle 42 # 2-17 (fictional)",
+      "service": "Physiotherapy",
+      "priority": "high",
+      "lat": 4.44296,
+      "lng": -75.17431
+    }
+  ]
+}

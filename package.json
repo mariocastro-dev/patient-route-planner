@@ -1,0 +1,13 @@
+{
+  "name": "patient-route-planner",
+  "version": "1.0.0",
+  "description": "Plans balanced daily home-visit routes for field healthcare staff (k-means + 2-opt).",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "generate-data": "node scripts/generate-patients.js",
+    "start": "npx --yes serve ."
+  },
+  "license": "MIT",
+  "author": "Mario Fernando Castro Acosta (https://github.com/mariocastro-dev)"
+}

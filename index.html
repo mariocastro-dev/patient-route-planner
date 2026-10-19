@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patient Route Planner</title>
+  <meta name="description" content="Plans balanced daily home-visit routes for field healthcare staff using k-means clustering and 2-opt route optimization.">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="panel">
+      <header>
+        <h1>Patient Route Planner</h1>
+        <p class="tagline">Balanced daily home-visit routes for field healthcare staff.</p>
+        <span class="badge">Demo · fictional data</span>
+      </header>
+
+      <section class="controls">
+        <label for="caregivers">Field staff <output id="caregiversValue">3</output></label>
+        <input id="caregivers" type="range" min="1" max="6" value="3">
+        <label class="toggle">
+          <input id="baseline" type="checkbox">
+          Show unoptimized order (baseline)
+        </label>
+      </section>
+
+      <section class="stats" aria-live="polite">
+        <div class="stat"><span class="stat-value" id="statPatients">–</span><span class="stat-label">Patients</span></div>
+        <div class="stat"><span class="stat-value" id="statTotal">–</span><span class="stat-label">Optimized km</span></div>
+        <div class="stat"><span class="stat-value" id="statBaseline">–</span><span class="stat-label">Baseline km</span></div>
+        <div class="stat accent"><span class="stat-value" id="statSavings">–</span><span class="stat-label">Distance saved</span></div>
+      </section>
+
+      <section>
+        <h2>Routes</h2>
+        <ol id="routes" class="routes"></ol>
+      </section>
+
+      <footer>
+        Distances are straight-line (haversine). Algorithms: balanced k-means++ → nearest neighbor → 2-opt.
+        <br><a href="https://github.com/mariocastro-dev/patient-route-planner">Source on GitHub</a>
+      </footer>
+    </aside>
+
+    <main id="map" aria-label="Map of patient visits"></main>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script type="module" src="src/app.js"></script>
+</body>
+</html>
